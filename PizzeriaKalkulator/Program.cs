@@ -30,6 +30,6 @@ int fizetendo = osszeg + szalitasi;
 Console.WriteLine("================================");
 Console.WriteLine($"Vásárló neve: {nev}");
 Console.WriteLine($"Rendelés összege: {osszeg} ");
-Console.WriteLine($"Szálítasi díj: {szalitasi}");
-Console.WriteLine($"fizetendő végösszeg: {fizetendo}");
+Console.WriteLine($"Szálítasi díj: {szalitasi} Ft");
+Console.WriteLine($"fizetendő végösszeg: {fizetendo}Ft");
 Console.WriteLine("================================");
