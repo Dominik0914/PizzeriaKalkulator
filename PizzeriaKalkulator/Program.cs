@@ -13,20 +13,11 @@ if (valasz == "nem" )
     Tvasarlo = false;
 }
 
-if (osszeg < 10000) 
-{
-    if (Tvasarlo)
-    {
-        szalitasi = 0;
-    }
-}
-else
+if (osszeg >= 10000 || Tvasarlo)
 {
     szalitasi = 0;
 }
-
-
-if (osszeg > 5000)
+else if (osszeg>=5000)
 {
     szalitasi = 500;
 }
