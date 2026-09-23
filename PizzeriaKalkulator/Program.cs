@@ -30,7 +30,15 @@ if (osszeg > 5000)
 {
     szalitasi = 500;
 }
-else;
+else
 {
     szalitasi = 1200;
 }
+int fizetendo = osszeg + szalitasi;
+
+Console.WriteLine("================================");
+Console.WriteLine($"Vásárló neve: {nev}");
+Console.WriteLine($"Rendelés összege: {osszeg} ");
+Console.WriteLine($"Szálítasi díj: {szalitasi}");
+Console.WriteLine($"fizetendő végösszeg: {fizetendo}");
+Console.WriteLine("================================");
